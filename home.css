@@ -379,3 +379,92 @@ header  nav a {
  
   
 }
+
+
+@media   (max-width: 450px){
+
+  
+    .card{
+       
+        width: 80%;
+        padding: 10px 3px;
+       
+        grid-column: 5/13;
+ 
+        margin: 20px 2em 20px 2em;
+        box-sizing: border-box;
+      
+    }
+
+    .card img{
+        
+        width: 85%;
+       
+    }
+
+    .welcom {
+        
+        width: 70%;
+        padding: 0;
+        text-align: center;
+       
+        justify-self: center;
+        font-size: 1rem;
+        box-sizing: border-box;
+       
+    }
+    
+    header {
+        width: 100%;
+    }
+    footer {
+        width: 120%;
+        box-sizing: border-box;
+    }
+    footer  nav {
+    
+        grid-column:8/11;
+        
+        min-width: 300px;
+        box-sizing: border-box;
+       
+    }
+  
+}
+
+
+
+@media   (max-width: 300px){
+
+  
+    .card{
+        
+        width: 70%;
+        margin: 20px 0 20px 0;
+        grid-column:1/13;
+      
+    }
+
+    .card img{
+        
+        width: 85%;
+       
+    }
+
+    .welcom {
+        
+        width: 70%;
+       
+       
+    }
+    
+    header {
+        width: 130%;
+    }
+    footer {
+        width: 160%;
+        
+    }
+   
+  
+}
